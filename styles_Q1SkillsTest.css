@@ -1,0 +1,54 @@
+body{
+	background-image: url('https://images.unsplash.com/photo-1643990331688-68ff3eb61675?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9ib3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww');
+	background-repeat: no-repeat;
+}
+
+
+hr{
+	border-style: dashed;
+	border-width: 2px; 
+}
+
+
+h4, h3, h2, p{
+	text-align: center;
+}
+
+h3, h2{
+	color: darkcyan;
+}
+
+#app-form{
+		font-family: Cascadia Code;
+		padding: 30px;
+		background-color: white;
+		border-radius: 10px;
+		width: 500px;
+		length: auto;
+		margin: auto;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 1.0);
+}
+
+input[type="text"], input[type="address"], input[type= "number"], select
+		{
+		font-family: Cascadia Code;
+		width: 100%;
+		font-size: 18px;
+		text-align: center;
+		color: #423615;
+		background-color: rgba(0, 0, 0, 0.3);
+		border-radius: 4px;
+		}
+
+textarea, input[type= "submit"], input[type= "reset"]
+		{
+		font-family: Cascadia Code;
+		border-radius: 5px;
+		}
+
+input[type="submit"]:hover, input[type= "reset"]:hover{
+		font-size: 14px;
+		cursor: pointer;
+		background-color: lightcyan ;
+		border-radius: 6px;
+}
